@@ -8,6 +8,7 @@ cal 2020
 ls  # equal dir in windows
 ls -a   # -a is option equal [ls --all]
 ls -la  # equal [ls -l -a] merged it
+ls --  (tab) #to show all options
 ls --help
 ls /home    # excute ls in another dir [/home] is argument
 ls -la /home    # command , option , argument
@@ -23,4 +24,5 @@ cat /etc/test # to read file content
 head /etc/test # to read first 10 line and can use[-n 3] to read just 3 lines
 tail /etc/test # to read last 10 line and can use[-n 3] to read just 3 lines
 wc /etc/test # to get file summery like lines,words,chars with options [-l , -w , -c]
+history # to show all command and to excute command [!5] mean excute the command number 5
 
