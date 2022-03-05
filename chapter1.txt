@@ -18,4 +18,9 @@ init 3 # to remove desktop view and to return it use [init 5]
 clear # to clear terminal of showing data but [reset] cleaar all commands
 passwd # chang pass to my account or another [passwd haitham]
 which cal # to know the directory file path
-file /etc/test.txt # to know type of file is readable or hex
+file /etc/test # to know type of file is readable or hex
+cat /etc/test # to read file content
+head /etc/test # to read first 10 line and can use[-n 3] to read just 3 lines
+tail /etc/test # to read last 10 line and can use[-n 3] to read just 3 lines
+wc /etc/test # to get file summery like lines,words,chars with options [-l , -w , -c]
+
