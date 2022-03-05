@@ -24,5 +24,7 @@ cat /etc/test # to read file content
 head /etc/test # to read first 10 line and can use[-n 3] to read just 3 lines
 tail /etc/test # to read last 10 line and can use[-n 3] to read just 3 lines
 wc /etc/test # to get file summery like lines,words,chars with options [-l , -w , -c]
-history # to show all command and to excute command [!5] mean excute the command number 5
-
+history (OR (cat .bash_history)) # to show all command from [.bash_history] and to excute command [!5] mean excute the command number 5
+cal ; pwd # excute more than command
+pwd && ls # ecute ls if excute pwd correctly
+pwd || ls # excute ls if pwd is not excute correctly
