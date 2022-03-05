@@ -1,0 +1,21 @@
+pwd     # to show my current directory
+whoami  # to tell me who user am i
+cd      # to go back
+date
+cal     # calender this month
+cal 12 1981
+cal 2020
+ls  # equal dir in windows
+ls -a   # -a is option equal [ls --all]
+ls -la  # equal [ls -l -a] merged it
+ls --help
+ls /home    # excute ls in another dir [/home] is argument
+ls -la /home    # command , option , argument
+tty     # tell terminal type
+# [ctrl+shift+N] open new black termonal in desktop mode
+# [alt+ctrl+F{2..6}] to open new terminal and switch by [alt+<==]
+init 3 # to remove desktop view and to return it use [init 5]
+clear # to clear terminal of showing data but [reset] cleaar all commands
+passwd # chang pass to my account or another [passwd haitham]
+which cal # to know the directory file path
+file /etc/test.txt # to know type of file is readable or hex
