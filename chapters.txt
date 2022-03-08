@@ -1,3 +1,6 @@
+# =============================== 
+            chapter 1
+# ===============================
 pwd     # to show my current directory
 whoami  # to tell me who user am i
 cd      # to go back
@@ -6,12 +9,15 @@ cal     # calender this month
 cal 12 1981
 cal 2020
 ls  # equal dir in windows
+ls ~ # show under home dir for current user
+ls .    # show under current location
 ls -a   # -a is option equal [ls --all]
 ls -la  # equal [ls -l -a] merged it
 ls --  (tab) #to show all options
 ls --help
 ls /home    # excute ls in another dir [/home] is argument
 ls -la /home    # command , option , argument
+ls -R /home # show summery for all fieles in subDir
 tty     # tell terminal type
 # [ctrl+shift+N] open new black termonal in desktop mode
 # [alt+ctrl+F{2..6}] to open new terminal and switch by [alt+<==]
@@ -28,3 +34,17 @@ history (OR (cat .bash_history)) # to show all command from [.bash_history] and 
 cal ; pwd # excute more than command
 pwd && ls # ecute ls if excute pwd correctly
 pwd || ls # excute ls if pwd is not excute correctly
+# =============================== 
+            chapter 2
+# ===============================
+cd  # to go to home dir for current user
+cd ..   # up one level
+cd ../..   # up two level
+cd - # go back
+cd ~abeer    # to go to home dir for user abeer
+cd Documents #  to open directory
+touch file1 file\ 2 'file 5' file5  # create files
+mkdir fold1 'fold 4'    # create directories
+mkdir -p d1/d2/d3   # make dir and sub dirs [ls -R d1] to show all thim
+cp file1 file2 # copy file1 as a file2 on same dir
+cp file1 file2 ./Desktop # copy file1 and file2 to another dir
